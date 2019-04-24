@@ -1,0 +1,117 @@
+body{
+	background-image: url("login.jpg");
+	background-repeat: no-repeat, repeat;
+	
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 600px;
+  height:700px;
+  margin: auto;
+  text-align: center;
+  background-color:white;
+  font-family: arial;
+  margin-top: 90px;
+}
+
+#con{
+	margin-top:40px; 
+}
+
+.adminlog input[type="text"]{
+   border: none;
+   border-bottom: 2px solid black;
+   
+}
+#role
+{   font-size:20px;
+	margin-right:60px;
+	font-family: arial;
+	font-weight: bold;
+}
+.selectrole
+{	font-weight:bold;
+	text-align:center;
+	font-size:16px;
+	width:145px;
+	height:30px;
+	margin:8px;
+	
+}
+.adminlog{
+	padding-top: 50px;
+}
+#uname{
+	font-size:20px;
+	margin-right: 12px;
+	font-weight: bold;
+	 border: none;
+   border-bottom: 2px solid black;
+	
+}
+#passwd{
+	font-size:20px;
+	margin-right: 12px;
+	font-weight: bold;
+	
+}
+#confirmpasswd{
+	font-size:20px;
+	margin-right:12px;
+	font-weight: bold;
+	  border: none;
+   border-bottom: 2px solid black;
+}
+#admbutton{
+	margin-top: 12px;
+	background-color: #6600ff; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+.adminlog #confirm{
+	margin-right: 0px;
+	border: none;
+   border-bottom: 2px solid black;
+}
+#fogpasswd{
+	margin-left: 25px;
+	text-align: 
+}
+.adminlog #pass{
+	border: none;
+   border-bottom: 2px solid black;
+}
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+#password{
+	 border: none;
+   border-bottom: 2px solid black;
+}

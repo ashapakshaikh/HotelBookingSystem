@@ -1,0 +1,79 @@
+body{
+	
+
+	
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 500px;
+  height:500px;
+  margin: auto;
+  text-align: center;
+  background-color:white;
+  font-family: arial;
+  margin-top: 90px;
+}
+
+#con{
+	margin-top:40px; 
+}
+
+.adminlog input[type="text"]{
+   border: none;
+   border-bottom: 2px solid black;
+   
+}
+#role
+{   font-size:20px;
+	margin-right:60px;
+	font-family: arial;
+	font-weight: bold;
+}
+.selectrole
+{	font-weight:bold;
+	text-align:center;
+	font-size:16px;
+	width:145px;
+	height:30px;
+	margin:8px;
+	
+}
+.adminlog{
+	padding-top: 50px;
+}
+#uname{
+	font-size:20px;
+	margin-right: 12px;
+	font-weight: bold;
+	
+}
+#passwd{
+	font-size:20px;
+	margin-right: 12px;
+	font-weight: bold;
+	
+}
+#admbutton{
+	margin-top: 12px;
+	background-color: #555555; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+#fogpasswd{
+	margin-left: 25px;
+	text-align: 
+}
+#userName{
+	border: none;
+   border-bottom: 2px solid black;
+}
+#password{
+	border: none;
+   border-bottom: 2px solid black;
+}

@@ -1,0 +1,85 @@
+<style>
+.a1{
+	color: white;
+}
+
+.header {
+	height: 45px;
+	width: auto;
+	border-radius: 25px;
+  	overflow: hidden;
+  	background-color: #363f3d;
+  	color: white;
+  	font-family: cursive;
+  	font-size: 20px;
+}
+
+.header a {
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  font-family: inherit;
+  background-color:inherit;
+  margin: 0;
+}
+
+.header a:hover, .dropdown:hover .dropbtn {
+  background-color: #ff8080;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+	
+  background-color: #0000ff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+</style>
+
+<div class="header">
+		<a class="a1" href="Home.jsp">Home</a>
+		<a class="a1" href="aboutus.jsp" >About Us</a>
+		<div class="dropdown">
+    <button class="dropbtn a1">Users</button>
+    <div class="dropdown-content">
+      <a href="login">Login</a>
+      <a href="addcust">Signup</a>
+    </div>
+  </div> 
+	</div>

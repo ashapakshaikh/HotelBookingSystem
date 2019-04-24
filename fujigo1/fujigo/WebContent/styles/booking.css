@@ -1,0 +1,125 @@
+body{
+	background-image: url("../styles/Town_and_Country_fh000023.jpg");
+}
+
+.booking{
+	
+	border: 3px solid #000;
+	border-radius: 3px;
+	padding-top: 10px;
+	padding-right: 35px;
+	padding-bottom: 5px;
+	width: 50%;
+	background-color: white;
+	margin-top: 60px;
+	margin-left: 330px;
+	font-family: cursive;
+	font-size:20px;
+}
+#location{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 5px;
+	display: inline-block;
+	box-sizing: inherit;
+	background-color: #A9A9A9;
+	color:white;
+	
+}
+#chin{
+	width: 20%;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 5px;
+	display: inline-block;
+	box-sizing: inherit;
+	background-color: #A9A9A9;
+	color:white;
+	
+}
+
+#chout{
+	width: 22.5%;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 5px;
+	background-color: #A9A9A9;
+	color:white;
+	display: inline-block;
+	box-sizing: inherit;	
+	display: inline-block;
+}
+#h1{
+ 	text-align: center;
+ 	font-family: cursive;
+	font-size:50px;
+	margin-top: 50px;
+}
+#timein{
+	width: 20%;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 5px;
+	display: inline-block;
+	box-sizing: inherit;
+	background-color: #A9A9A9;
+	color:white;
+}
+#timeout{
+	width: 22.5%;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 5px;
+	display: inline-block;
+	box-sizing: inherit;
+	background-color: #A9A9A9;
+	color:white;	
+}
+#adults{
+	width: 5%;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 10px;
+	display: inline-block;
+	box-sizing: inherit;
+	background-color: #A9A9A9;
+	color:white;	
+	
+}
+#childern{
+	
+	width: 5%;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 5px;
+	display: inline-block;
+	box-sizing: inherit;
+	background-color: #A9A9A9;
+	color:white;	
+	
+}
+#rooms{
+	width: 5%;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 5px;
+	margin-left: 8px;
+	display: inline-block;
+	box-sizing: inherit;
+	background-color: #A9A9A9;
+	color:white;	
+	
+}
+input[type=Submit]{
+	width: 100%;
+	cursor: pointer;
+	background-color: #6B8E23;
+	color:black;
+	padding: 10px;
+	border-radius: 10px;
+	margin-left:10px;
+	font-family: cursive;
+	font-size: 20px;		
+}
+
